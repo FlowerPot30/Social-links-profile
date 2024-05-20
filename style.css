@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'Inter';
+  src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+  font-weight: 400, 600, 700;
+}
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 20%);
+  --Dark-Grey: hsl(0, 0%, 12%);
+  --Off-Black: hsl(0, 0%, 8%);
+  --Green: hsl(75, 94%, 57%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--Off-Black);
+}
+
+main {
+  font-family: 'Inter';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding: 35px;
+  max-width: 450px;
+  background-color: var(--Dark-Grey);
+  height: auto;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5%;
+}
+
+img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+}
+
+h2 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--White);
+  margin-top: 25px;
+}
+
+.address {
+  font-weight: 600;
+  color: var(--Green);
+  margin-top: 10px;
+}
+
+.description {
+  font-weight: 400;
+  color: var(--White);
+  margin-top: 30px;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 0.8rem;
+}
+
+.button button {
+  padding: 1em 10em;
+  color: var(--White);
+  background-color: var(--Grey);
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 600;
+}
+
+.button button:hover {
+  cursor: pointer;
+}
+
+
+
